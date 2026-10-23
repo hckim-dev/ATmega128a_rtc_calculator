@@ -1,4 +1,33 @@
 
+# AVR Studio / Microchip Studio generated build output.
+/Debug/
+/Release/
+/build/
+*.o
+*.d
+*.elf
+*.hex
+*.eep
+*.srec
+*.lss
+*.map
+
+# Per-user IDE state and generated device-pack metadata.
+.vs/
+*.atsuo
+*.suo
+*.cproj.user
+*.atsln.docstates
+*.componentinfo.xml
+
+# Superseded explanatory images, retained only in the local workspace.
+/docs/assets/legacy/
+
+# OS metadata.
+Thumbs.db
+Desktop.ini
+.DS_Store
+
 # Local credentials and signing material (templates remain tracked).
 .env
 .env.*
