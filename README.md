@@ -53,14 +53,30 @@ ATmega128A의 레지스터를 직접 제어해 DS1307, LCD1602, 키패드, 버�
   <img src="docs/assets/images/rtc_result.png" alt="실물 LCD1602에 표시된 RTC 날짜와 시각" width="480">
 </p>
 
-| 영상                                                                                           | 설계 내용                                                                                        |
-| ---------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------- |
-| [전체 동작](https://github.com/user-attachments/assets/92abe7bb-5f36-4730-b449-3d3581099c04)   | [계산기 초기화](https://github.com/user-attachments/assets/d595cd02-ee3e-44b4-81f3-7f916f3c6f78) | 시계→계산기 전환, 괄호 오류의 `=ERROR` 표시 |
-| 시계→계산기 전환, 괄호 오류의 `=ERROR` 표시                                                    | 수식·결과를 지우고 입력 화면을 `0`으로 초기화                                                    |
-| [계산기 대기](https://github.com/user-attachments/assets/470df7b3-cfb5-4ec2-ac9d-55d87324b0be) | [긴 수식 입력](https://github.com/user-attachments/assets/c77f9c1f-f205-4c64-978e-72557a939b2a)  |
-| 계산기 입력 후 대기, 시계 화면으로 복귀                                                        | 16자를 넘는 수식의 표시 영역 이동과 결과 출력                                                    |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/user-attachments/assets/92abe7bb-5f36-4730-b449-3d3581099c04"><strong>① 전체 동작</strong></a><br><br>
+      시계→계산기 모드 전환과<br>괄호 오류의 <code>=ERROR</code> 표시
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/user-attachments/assets/d595cd02-ee3e-44b4-81f3-7f916f3c6f78"><strong>② 계산기 초기화</strong></a><br><br>
+      입력한 수식과 결과를 지우고<br>입력 화면을 <code>0</code>으로 초기화
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <a href="https://github.com/user-attachments/assets/470df7b3-cfb5-4ec2-ac9d-55d87324b0be"><strong>③ 계산기 대기</strong></a><br><br>
+      계산기 입력 후 대기하면<br>시계 화면으로 자동 복귀
+    </td>
+    <td width="50%" valign="top">
+      <a href="https://github.com/user-attachments/assets/c77f9c1f-f205-4c64-978e-72557a939b2a"><strong>④ 긴 수식 입력</strong></a><br><br>
+      16자를 넘는 수식의 표시 영역 이동과<br>계산 결과 출력
+    </td>
+  </tr>
+</table>
 
-영상은 저장소에 포함된 기존 촬영 자료입니다. 링크에서 MP4 파일을 열 수 있으며, 웹에서 재생되지 않으면 **Download raw file**로 내려받아 확인할 수 있습니다.
+각 제목을 클릭하면 GitHub 첨부 영상을 볼 수 있습니다. 원본 MP4 파일은 `docs/assets/videos/`에 보관했습니다.
 
 ## 사용 방법
 
